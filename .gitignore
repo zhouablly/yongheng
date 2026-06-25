@@ -1,0 +1,51 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+.env
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# 原始素材压缩包（public/frames 中已有最终帧）
+ezgif-split*.zip
+
+# 原始分帧目录（public/frames 中已有最终帧）
+/frames-set1/
+/frames-set2/
+
+# 原始视频文件（已用 WebP 帧序列替代）
+初始场景*.mp4
+/public/videos/*.mp4
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
